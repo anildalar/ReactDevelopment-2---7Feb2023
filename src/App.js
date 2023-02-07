@@ -1,25 +1,18 @@
+// Single Line Comment Me kuch bhi likh sakta hu
+// Import Area
+// import something from somelibrary;
 import logo from './logo.svg';
+import logo2 from './download.png';
 import './App.css';
 
+//1. Function  defination area
 function App() {
+
+  //Every Function return something
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <img src={logo2}  />
   );
 }
 
+// Export area
 export default App;
